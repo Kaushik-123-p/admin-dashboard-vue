@@ -1,7 +1,11 @@
-<script setup></script>
-
 <template>
-  <div class="bg-red-500 text-4xl text-white">HELLOOO</div>
+  <navbar />
 </template>
 
-<style scoped></style>
+<script>
+import Navbar from "./components/Navbar.vue";
+
+export default {
+  components: { Navbar },
+};
+</script>

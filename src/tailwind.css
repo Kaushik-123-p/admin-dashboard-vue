@@ -1,10 +1,9 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
-
 @custom-varant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-@theme{
-    --color-primary: #4635B1;
-    --color-backgroundDark: #141122
+@theme {
+  --color-primary: #4635b1;
+  --color-backgroundDark: #141122;
 }
